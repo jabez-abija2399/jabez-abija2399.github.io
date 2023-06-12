@@ -1,0 +1,193 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #bbb;
+}
+
+.intro-container {
+    margin-top: 50px;
+}
+
+.intro-container img {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.intro-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro-container p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Styling */
+#features {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature img {
+    max-width: 650px;
+    margin-bottom: 20px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #666;
+}
+
+/* About Styling */
+#about {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-container {
+    margin-bottom: 40px;
+}
+
+.about-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.team-members li {
+    margin: 0 10px;
+}
+
+.team-members h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 5px;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .intro-container h1 {
+        font-size: 28px;
+    }
+
+    .intro-container p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .feature img {
+        max-width: 200px;
+    }
+
+    .feature h2 {
+        font-size: 20px;
+    }
+
+    .feature p {
+        font-size: 14px;
+    }
+
+    .about-container h2 {
+        font-size: 20px;
+    }
+
+    .about-container p {
+        font-size: 14px;
+    }
+
+    .team-members h4 {
+        font-size: 16px;
+    }
+}
